@@ -1,0 +1,102 @@
+body {
+    margin: 0pt;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: #333;
+    margin: 10;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navUL {
+    
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+li:hover {
+    background-color: teal;
+}
+
+ul {
+    margin: 20;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #header { 
+    ;
+  } */
+
+
+#sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 17%;
+    background-color: gray;
+    height: 100%; /* Full height */
+    position: static; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+
+.sidebarUL {
+    font-size: 20pt;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+/* Change the link color on hover How to differintiate b/t nav bar ul hover*/
+/* li a:hover {
+    background-color: #555;
+    color: white;
+} */
+
+article {
+    float: right;
+    padding: 20px;
+    width: 95%;
+    background-color: #f1f1f1;
+}
+h1 {
+    font-size: 65pt;
+    /* margin-left: 22%;
+    margin-right: 25%; */
+}
+
+h2 {
+    position: relative;
+    font-size: 25pt;
+    margin-left: 22%;
+}
+p {
+    margin-left: 25%;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6B6565;
+    color: white;
+    text-align: center;
+}
