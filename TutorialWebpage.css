@@ -1,0 +1,130 @@
+body, html {
+    margin: 0pt;
+    height: 100%;
+    background-color: #f5fff5;
+    background-image: url("https://www.transparenttextures.com/patterns/skeletal-weave.png");
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+   
+#navbar {
+    background-color: black;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+li:hover {
+    background-color: black;
+}
+ul {
+    margin: 0;
+}
+li a {
+    color:green;
+    text-decoration: none;
+    font-family: 'Special Elite', cursive;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 20pt;
+    width: 18%;
+    height: 100%;
+    overflow-y: auto; /* Enable scrolling if the sidenav has too much content */
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    float: left;
+    overflow-x: hidden;
+}
+
+.sidebarUL {
+    font-size: 20pt;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 16%; /* about Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+article {
+    padding: 10px;
+    width: 95%;
+} 
+
+h1 {
+    font-size: 45pt;
+    margin-left: 8%;
+    font-family: 'Special Elite', cursive;
+    padding-top: 85px;
+    z-index: 3;
+    color: green;
+    animation-name: bounceInLeft;
+    animation-duration: 4s;
+}
+
+@keyframes bounceInLeft {
+  0% { 
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h2 {
+    position: static;
+    margin-left: 10%;
+    padding-top: 75px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    position: static;
+    margin-left: 10%;
+    font-size: 18pt;
+}
+p {
+    margin-left: 10%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: green;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 7em;
+    text-align: center;
+}
